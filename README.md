@@ -1,8 +1,11 @@
 # 🔁 Customer Churn Prediction
 ### End-to-End Binary Classification · Logistic Regression · Random Forest · XGBoost · SHAP Explainability · Streamlit Deployment
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/profpius/customer-churn-prediction/blob/main/churn_prediction.ipynb)
+**By Nakul Sharma**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nakulsharma97/cutomer-churn/blob/main/churn_prediction.ipynb)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-prediction-pius.streamlit.app)
+![GitHub](https://img.shields.io/badge/GitHub-nakulsharma97-181717?logo=github&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange?logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-3.2.0-red)
@@ -76,6 +79,8 @@ The model enables retention teams to take **targeted, cost-efficient action** in
 The model is deployed as a fully interactive web application on **Streamlit Community Cloud**.
 
 **→ [Launch the App](https://customer-churn-prediction-pius.streamlit.app)**
+
+> The link above points to the reference deployment of this project. Replace it with your own Streamlit Community Cloud URL once you deploy your copy.
 
 ### App Features
 
@@ -299,7 +304,7 @@ SHAP (SHapley Additive exPlanations) was used to provide directional, per-predic
 ## 📁 Project Structure
 
 ```
-customer-churn-prediction/
+cutomer-churn/
 │
 ├── churn_prediction.ipynb        # Main notebook: full end-to-end pipeline
 ├── churn.csv                     # Raw dataset (36,992 customer records)
@@ -328,7 +333,7 @@ customer-churn-prediction/
 
 ### Option 1 — Use the Live App (No Setup Required)
 
-👉 **[Open the Streamlit App](https://customer-churn-prediction-pius.streamlit.app)**
+👉 **[Open the Streamlit App](https://customer-churn-prediction-pius.streamlit.app)** (reference deployment)
 
 Enter customer details in the sidebar and get an instant churn prediction with SHAP explanation, or upload a CSV for batch scoring.
 
@@ -339,8 +344,8 @@ Enter customer details in the sidebar and get an instant churn prediction with S
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/profpius/customer-churn-prediction.git
-cd customer-churn-prediction
+git clone https://github.com/nakulsharma97/cutomer-churn.git
+cd cutomer-churn
 ```
 
 #### 2. Install Dependencies
@@ -438,12 +443,12 @@ Deploying a serialised sklearn pipeline across environments requires careful ver
 
 ## 👤 Author
 
-**Victor Pius**
+**Nakul Sharma**
 Data Scientist & Data Analyst
 
 I build end-to-end machine learning solutions with a focus on **production readiness**, **business interpretability**, and **robust evaluation**. This project demonstrates proficiency across the full data science lifecycle: from raw data ingestion and leak-proof preprocessing, through model selection and rigorous cross-validation, to SHAP-based explainability, Streamlit app development, and cloud deployment.
 
-📧 Connect on [LinkedIn](https://www.linkedin.com/in/victor-pius-4061a9332) · 💻 View all projects on [GitHub](https://github.com/profpius)
+💻 View all projects on [GitHub](https://github.com/nakulsharma97)
 
 ---
 
